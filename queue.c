@@ -37,8 +37,8 @@ Queue *CreateQueue(size_t size)
 
 		PRINT_ERR(tempStr);
 
-        free(pQueue);
-        
+		free(pQueue);
+
 		return NULL;
 	}
 
@@ -147,7 +147,7 @@ void EnQueue(Queue *pQueue, QData data)
 	{
 		PRINT_ERR("queue is full");
 
-        return;
+		return;
 	}
 
 	AssignQData(&(pQueue->arr[pQueue->elementNum++]), data);
