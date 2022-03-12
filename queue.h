@@ -4,6 +4,8 @@
 #include <stdbool.h>
 
 // data types definition
+
+// if you change QData, you also have to change AssignQData()
 typedef int QData;
 
 typedef struct _queue
